@@ -1,0 +1,3 @@
+SELECT parental_level_of_education,COUNT( parental_level_of_education) AS "Total_number_students"
+FROM studentsperformance
+GROUP BY parental_level_of_education;
